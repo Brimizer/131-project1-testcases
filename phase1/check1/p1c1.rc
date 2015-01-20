@@ -1,0 +1,12 @@
+function : int main() {
+    int x = 5;
+    int y = 4;
+
+    int z = x / y;
+
+    bool mybool = false;
+
+    int abracadabra = z - mybool; // This should fail
+
+    return 0;
+}

@@ -1,0 +1,12 @@
+function : int main() {
+    int x = 5;
+    int y = 4;
+    bool a = true;
+
+    int z = x % y; // this should pass
+
+    int b = x % a; // this should error
+
+
+    return 0;
+}
