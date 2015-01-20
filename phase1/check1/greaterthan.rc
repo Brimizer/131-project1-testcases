@@ -1,11 +1,11 @@
 function : int main() {
-    int x = 5;
-    int y = 4;
-    bool a = true;
+    int a = 5;
+    int b = 4;
+    bool c = true;
 
-    bool z = x > y; // this should pass
+    bool d = a > b; // this should pass
 
-    bool b = x > a; // this should error
+    bool e = c > a; // this should error
 
     return 0;
 }

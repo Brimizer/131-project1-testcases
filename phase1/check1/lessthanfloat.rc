@@ -1,0 +1,11 @@
+function : int main() {
+    float a = 6.7;
+    float b = 9.2;
+    bool d = true;
+
+    bool c = a < b; // This should pass
+
+    bool d = d < c; // This should error
+
+    return 0;
+}
