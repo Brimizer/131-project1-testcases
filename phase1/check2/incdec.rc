@@ -1,0 +1,21 @@
+function : int main() {
+    int a = 5;
+    float b = 4.9;
+    bool c = true;
+
+    false++;
+    a++;
+    c++;
+
+    int d = b++;
+    c = 9++;
+    d = (10+8)++;
+    int e = a++;
+    a++;
+    ++b;
+    ++a;
+    ++(12 - 4);
+    a = ++(12++ - a++);
+
+    return 0;
+}

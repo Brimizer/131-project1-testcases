@@ -1,0 +1,15 @@
+function : int main() {
+    int a = 5;
+    int b = 4;
+    bool c = true;
+
+    bool d = a != b; // pass
+
+    d = (a!=b); // pass
+
+    bool e = b != c; // fail
+
+    c = 5 == ( c != 0 ); // ?? probably should fail
+
+    return 0;
+}

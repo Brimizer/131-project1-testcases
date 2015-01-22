@@ -1,0 +1,25 @@
+function : int main() {
+    int a = 5;
+    int b = 4;
+    bool c = true;
+
+    bool d = a || b; // fail
+
+    bool e = true || false; // pass
+    bool f = false || true; // pass
+
+    bool g = c || 5; // fail
+
+    bool h = e || f || g || c;
+
+    bool i = 5 || true || (10 || 9.0);
+
+    bool j = true || false || (false && true || (false && false));
+
+    c = false && true && 10;
+    c = 5 || false && (10 && false);
+
+    h = 5.0 && 10.0 || 1.9;
+
+    return 0;
+}

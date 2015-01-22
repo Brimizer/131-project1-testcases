@@ -1,0 +1,6 @@
+function : int main() {
+    int d = 1 + 1; // pass
+    int e = false - false; // fail
+
+    return 0;
+}

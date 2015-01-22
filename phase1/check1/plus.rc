@@ -1,0 +1,11 @@
+function : int main() {
+    int a = 5;
+    int b = 4;
+    bool c = true;
+
+    int d = a + b; // pass
+
+    int e = a + c; // fail
+
+    return 0;
+}

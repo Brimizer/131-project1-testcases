@@ -1,0 +1,13 @@
+function : int main() {
+    int a = 5;
+    int b = 4;
+    bool c = true;
+
+    bool d = a == b; // pass
+
+    d = (a==b); // pass
+
+    bool e = 4 == true; // fail
+
+    return 0;
+}

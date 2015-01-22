@@ -1,0 +1,14 @@
+function : int main()
+{
+  int a = 0x123A;
+  int b = 12345;
+  int c = a + b + 01234;
+  // int f = -0456;
+  int g = 0xFFFF;
+  int h = 00x0000;
+  int i = 0012x045;
+  int j = 0x12.19
+
+
+
+}
