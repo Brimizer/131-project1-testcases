@@ -1,0 +1,24 @@
+function : int main() {
+    int a = 6;
+    int b = 3;
+
+    // Pass
+
+    int res = a & b;
+    res = a | b;
+    res = a ^ b;
+    res = a | b | res;
+
+    res = a & 10;
+    res = 18 & 9 | 2 ^ 4;
+    res = (10 ^ 4) & (3 | 3);
+
+    // Fail
+
+    bool c = true & false;
+    c = true | false;
+    c = true ^ a & (true | b);
+
+
+    return 0;
+}
