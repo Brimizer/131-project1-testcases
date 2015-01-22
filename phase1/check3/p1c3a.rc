@@ -1,1 +1,5 @@
-x+y = Expr;
+float f = 6.5;
+function : int main() {
+	int f;
+	f = ::f;
+}
