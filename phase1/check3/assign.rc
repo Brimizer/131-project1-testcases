@@ -1,0 +1,12 @@
+float f = 6.5;
+int i = 5;
+function : int main() {
+	int f;
+	f = ::f;
+}
+
+function : int myFunc() {
+	i = 5.5;
+	i = ::i;
+
+}

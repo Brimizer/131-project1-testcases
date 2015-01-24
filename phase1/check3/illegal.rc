@@ -1,0 +1,22 @@
+function : int main() {
+    int a = 5;
+    int b = 10;
+
+    a = 7.9; // fail
+    float z = 5; // pass
+    z = 10; // pass
+
+    int c = b = a; // pass
+
+    int d = b = a = 12.68; // fail
+
+    float e = 19.4 = 23.5 = 18.5; // fail
+
+    5 = 4 = 3 = 2 = 1; // fail
+
+    1 = 2; // fail
+
+    -2 = (3 - 5); // fail
+
+    (4 + 5) = 10; // fail
+}
