@@ -1,0 +1,38 @@
+function : int main() {
+
+    while (5) {
+        // fail
+    }
+
+    while (true) {
+        // pass
+    }
+
+    while (5 = 10) {
+        // fail - should be illegal assignment?
+    }
+
+    while (true == false) {
+        // pass
+    }
+
+        int i = 10;
+    bool b = true;
+    float f = 9.89;
+
+    while (10 & 9 || b) {
+
+    }
+
+    while (b && b) {
+
+    }
+
+    while (true || (b ^ 9) == i) {
+
+    }
+
+    while (true || (i = 5) == i) {
+
+    }
+}

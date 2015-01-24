@@ -1,0 +1,7 @@
+// this is scope 0
+function : int x() { // this is in global scope
+    // this is scope 1
+    int x = 5; // local scope
+
+    x(); // what happens?
+}

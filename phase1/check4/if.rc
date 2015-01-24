@@ -1,0 +1,38 @@
+function : int main() {
+
+    if (5) {
+        // fail
+    }
+
+    if (true) {
+        // pass
+    }
+
+    if (5 = 10) {
+        // fail - should be illegal assignment?
+    }
+
+    if (true == false) {
+        // pass
+    }
+
+    int i = 10;
+    bool b = true;
+    float f = 9.89;
+
+    if (10 & 9 || b) {
+
+    }
+
+    if (b && b) {
+
+    }
+
+    if (true || (b ^ 9) == i) {
+
+    }
+
+    if (true || (i = 5) == i) {
+
+    }
+}

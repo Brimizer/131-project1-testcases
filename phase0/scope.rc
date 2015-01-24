@@ -12,3 +12,11 @@ function : int main() {
 
   return 0;
 }
+
+// this is scope 0
+function : int x() {
+    // this is scope 1
+    int x = 5;
+
+    ::x(); // what happens?
+}
