@@ -9,7 +9,9 @@ function : void errorTest() {
     // what happens below?
     const int c = 30 + false; // will gen an error
 
-    const int d = c + 5; // what does this line do??
+    const int d = c + 5; // undeclared c
 
     const int f = 19.8;
+
+    int i = 1892.8; // Should gen an error
 }
