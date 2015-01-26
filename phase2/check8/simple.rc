@@ -1,0 +1,13 @@
+function : void errorTest() {
+
+    int a = 10 + 10; // fine
+
+    const int b = a + 3; // b not known at compile time
+
+    // what happens below?
+    const int c = 30 + false; // will gen an error
+
+    const int d = c + 5; // what does this line do??
+
+    const int f = 19.8;
+}

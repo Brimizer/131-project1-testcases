@@ -1,0 +1,120 @@
+function : void adds() {
+    int y = 2;
+    const float k = 10.12;
+
+    // Unknown at compile time
+    const int z = 2; // Error - z not known at compile time
+    const int x = y + 1; // Error - y not known at compile time
+    const float j = z + k; // Pass - both consts
+    int a1 = z + x; // Pass
+
+    int a2 = 2 + 3; // Do constant folding
+    const int b3 = 2 + 3; // Do constant folding
+
+    const float c4 = 5 + 6; // pass
+    const float c5 = 5 + 6 + 19 + 23; // pass
+    const int d5 = 5.8 + 6.0; // fail - incompatible types
+    const bool c7 = 5 + 6; // fail - Incompatible types
+}
+
+function : void mods() {
+    // Be sure to throw div-by-zero errors here
+    int y = 2;
+    const float k = 10.12;
+
+    // Unknown at compile time
+    const int z = 2; // Error - z not known at compile time
+    const int x = y % 1; // Error - y not known at compile time
+    int a = z % x; // Pass
+    const float j = z % k; // Pass - both consts
+
+    int a = 5 % 3; // Do constant folding
+    const int b = 7 % 3; // Do constant folding
+
+    const float c1 = 19 % 6; // pass
+    const float c2 = 200 % 43 % 19 % 23; // pass
+    const int d3 = 54.8 % 6.0; // fail - incompatible types
+    const bool c4 = 5 % 6; // fail - Incompatible types
+
+    // Test div-by-zero
+    const int c5 = 50 % 0; // fail - divide by zero
+    int j2 = 439 % 0; // fail - arithmetic exception
+    int j3 = 439 % 0.0; // fail - arithmetic exception
+
+    // fail - because j2 will be an ErrorSTO
+    // don't print out not known at compile time
+    const int j4 = j2 * 5; // fail
+
+    const bool c6 = 103 % 0; // fail - type mismatch (NOT div/0 error)
+}
+
+function : void divs() {
+    // Be sure to throw div-by-zero errors here
+    int y = 2;
+    const float k = 10.12;
+
+    // Unknown at compile time
+    const int z = 2; // Error - z not known at compile time
+    const int x = y / 1; // Error - y not known at compile time
+    int a = z / x; // Pass
+    const float j = z / k; // Pass - both consts
+
+    int a = 5 / 3; // Do constant folding
+    const int b = 7 / 3; // Do constant folding
+
+    const float c1 = 19 / 6; // pass
+    const float c2 = 200 / 43 / 19 / 23; // pass
+    const int d3 = 54.8 / 6.0; // fail - incompatible types
+    const bool c4 = 5 / 6; // fail - Incompatible types
+
+    // Test div-by-zero
+    const int c5 = 50 / 0; // fail - divide by zero
+    int j2 = 439 / 0; // fail - arithmetic exception
+    int j3 = 439 / 0.0; // fail - arithmetic exception
+
+    // fail - because j2 will be an ErrorSTO
+    // don't print out not known at compile time
+    const int j4 = j2 * 5; // fail
+
+    const bool c6 = 103 / 0; // fail - type mismatch (NOT div/0 error)
+
+}
+
+function : void muls() {
+    int y = 2;
+    const float k = 10.12;
+
+    // Unknown at compile time
+    const int z = 2; // Error - z not known at compile time
+    const int x = y * 1; // Error - y not known at compile time
+    int a = z * x; // Pass
+    const float j = z +*k; // Pass - both consts
+
+    int a2 = 2 * 3; // Do constant folding
+    const int b = 2 * 3; // Do constant folding
+
+    const float c1 = 5 * 6; // pass
+    const float c2 = 5 * 6 * 19 * 23; // pass
+    const int d = 5.8 * 6.0; // fail - incompatible types
+    const bool c3 = 5 * 6; // fail - Incompatible types
+}
+
+function : void subs() {
+    int y = 2;
+    const float k = 10.12;
+
+    // Unknown at compile time
+    const int z = 2; // Error - z not known at compile time
+    const int x = y - 1; // Error - y not known at compile time
+    const float j = z + k; // Pass - both consts
+
+    int a = z - x; // Pass
+
+    int a2 = 2 - 3; // Do constant folding
+    const int b = 2 - 3; // Do constant folding
+
+    const float c1 = 5 - 6; // pass
+    const float c2 = 5 - 6 - 19 - 23; // pass
+    const int d3 = 5.8 - 6.0; // fail - incompatible types
+    const bool c4 = 5 - 6; // fail - Incompatible types
+}

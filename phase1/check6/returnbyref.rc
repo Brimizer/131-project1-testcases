@@ -16,7 +16,9 @@ function : float & test4() {
 }
 
 function : float & test5() {
-    int a = 8;
+    int & a = 8;
+
+
     return a; // fail
 }
 

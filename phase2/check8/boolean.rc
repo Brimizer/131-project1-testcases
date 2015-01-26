@@ -1,0 +1,82 @@
+function : void notequals() {
+    // Be sure to throw div-by-zero errors here
+    bool a = true;
+    const bool b = true;
+
+    // Unknown at compile time
+    const bool c = 2;
+    const bool d = a != false; // Error - a not known at compile time
+    bool e = b != c; // Pass
+    const bool f = b != c; // Pass
+    const bool f = b != !c; // Pass
+
+    int g = 5 != 3; // Do constant folding
+    const int h = 7 != 3; // Do constant folding
+
+    const bool i = 19 != -6; // pass
+    const bool j = 200 != 43 != 19 != 23; // pass
+    const int k = 54.8 != 6.0; // fail - incompatible types
+    const float l = 5 != 6; // fail - Incompatible types
+}
+
+function : void equals() {
+    // Be sure to throw div-by-zero errors here
+    bool a = true;
+    const bool b = true;
+
+    // Unknown at compile time
+    const bool c = 2;
+    const bool d = a == false; // Error - a not known at compile time
+    bool e = b == c; // Pass
+    const bool f = b == c; // Pass - both consts
+
+    int g = 5 == 3; // Do constant folding
+    const int h = 7 == 3; // Do constant folding
+
+    const bool i = 19 == -6; // pass
+    const bool j = 200 == 43 == 19 == 23; // pass
+    const int k = 54.8 == 6.0; // fail - incompatible types
+    const float l = 5 == 6; // fail - Incompatible types
+}
+
+function : void or() {
+    // Be sure to throw div-by-zero errors here
+    bool a = true;
+    const bool b = true;
+
+    // Unknown at compile time
+    const bool c = 2;
+    const bool d = a || false; // Error - a not known at compile time
+    bool e = b || c; // Pass
+    const bool f = b || c; // Pass
+    const bool f = b || !c; // Pass
+
+    int g = 5 || 3; // Do constant folding
+    const int h = 7 || 3; // Do constant folding
+
+    const bool i = 19 || -6; // pass
+    const bool j = 200 || 43 || 19 || 23; // pass
+    const int k = 54.8 || 6.0; // fail - incompatible types
+    const float l = 5 || 6; // fail - Incompatible types
+}
+
+function : void and() {
+    // Be sure to throw div-by-zero errors here
+    bool a = true;
+    const bool b = true;
+
+    // Unknown at compile time
+    const bool c = 2;
+    const bool d = a && false; // Error - a not known at compile time
+    bool e = b && c; // Pass
+    const bool f = b && c; // Pass
+    const bool f = b && !c; // Pass
+
+    int g = 5 && 3; // Do constant folding
+    const int h = 7 && 3; // Do constant folding
+
+    const bool i = 19 && -6; // pass
+    const bool j = 200 && 43 && 19 && 23; // pass
+    const int k = 54.8 && 6.0; // fail - incompatible types
+    const float l = 5 && 6; // fail - Incompatible types
+}

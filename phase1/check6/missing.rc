@@ -52,3 +52,19 @@ function : int test8() {
 function : int test9() {
     return (true || false); // fail - bool not assignable to int
 }
+
+function : int test10() {
+    {
+
+    }
+
+    return (true || false); // fail - bool not assignable to int
+}
+
+function : int test10() {
+    {
+
+    }
+
+    return (true || false); // fail - bool not assignable to int
+}

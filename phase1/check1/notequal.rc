@@ -5,6 +5,10 @@ function : int main() {
 
     bool d = a != b; // pass
 
+    d = a != !b; // pass
+
+    d = true != !false; // pass
+
     d = (a!=b); // pass
 
     bool e = b != c; // fail

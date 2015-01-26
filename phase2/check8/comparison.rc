@@ -1,0 +1,75 @@
+function : void gt() {
+    int a = 2;
+    const float b = 10.12;
+
+    // Unknown at compile time
+    const int c = 2; // pass
+    const bool d = a > 1; // Error - a not known at compile time
+    const bool e = c > b; // Pass - both consts
+    int bool = c > d; // Pass
+
+    int bool = 2 > 3; // Do constant folding
+    const bool h = 2 > 3; // Do constant folding
+
+    const bool i = 5 > 6; // pass
+    const bool j = 5 > 6 > 19 > 23; // pass
+    const int k = 5.8 > 6.0; // fail - incompatible types
+    const float l = 5 > 6; // fail - Incompatible types
+}
+
+function : void gte() {
+    int a = 2;
+    const float b = 10.12;
+
+    // Unknown at compile time
+    const int c = 2; // pass
+    const bool d = a >= 1; // Error - a not known at compile time
+    const bool e = c >= b; // Pass - both consts
+    int bool = c >= d; // Pass
+
+    int bool = 2 >= 3; // Do constant folding
+    const bool h = 2 >= 3; // Do constant folding
+
+    const bool i = 5 >= 6; // pass
+    const bool j = 5 >= 6 >= 19 >= 23; // pass
+    const int k = 5.8 >= 6.0; // fail - incompatible types
+    const float l = 5 >= 6; // fail - Incompatible types
+}
+
+function : void lt() {
+    int a = 2;
+    const float b = 10.12;
+
+    // Unknown at compile time
+    const int c = 2; // pass
+    const bool d = a < 1; // Error - a not known at compile time
+    const bool e = c < b; // Pass - both consts
+    int bool = c < d; // Pass
+
+    int bool = 2 < 3; // Do constant folding
+    const bool h = 2 < 3; // Do constant folding
+
+    const bool i = 5 < 6; // pass
+    const bool j = 5 < 6 < 19 < 23; // pass
+    const int k = 5.8 < 6.0; // fail - incompatible types
+    const float l = 5 < 6; // fail - Incompatible types
+}
+
+function : void lte() {
+    int a = 2;
+    const float b = 10.12;
+
+    // Unknown at compile time
+    const int c = 2; // pass
+    const bool d = a <= 1; // Error - a not known at compile time
+    const bool e = c <= b; // Pass - both consts
+    int bool = c <= d; // Pass
+
+    int bool = 2 <= 3; // Do constant folding
+    const bool h = 2 <= 3; // Do constant folding
+
+    const bool i = 5 <= 6; // pass
+    const bool j = 5 <= 6 <= 19 <= 23; // pass
+    const int k = 5.8 <= 6.0; // fail - incompatible types
+    const float l = 5 <= 6; // fail - Incompatible types
+}
