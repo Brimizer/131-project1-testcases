@@ -3,12 +3,13 @@
 function : void func1() {
 }
 
-function : void func1() { // Error, redeclared function
+function : void func1() {
+    // Error, redeclared function
 }
 
-function : int func2() { return 0 }
+function : int func2() { return 0; }
 
-function : float func2() { return 0.0 } //Error, redeclared function
+function : float func2() { return 0.0; } //Error, redeclared function
 
 function : void func3(int a) {  }
 
