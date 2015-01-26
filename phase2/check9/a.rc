@@ -1,0 +1,39 @@
+// Test illegal overloaded function definitions
+
+function : void func1() {
+}
+
+function : void func1() { // Error, redeclared function
+}
+
+function : int func2() { return 0 }
+
+function : float func2() { return 0.0 } //Error, redeclared function
+
+function : void func3(int a) {  }
+
+function : void func3(int a, int b) { } // OK
+
+function : void func3(int a, int b, int c) {  } // OK
+
+function : void func4(int a, int b) {  }
+
+function : void func4(float a, int b) { } // OK
+
+function : void func5(float a, float b) {} // OK
+
+function : void func5(float a, float b, bool b) {} // OK
+
+
+// Ignore return types
+function : void func6(int a, bool b) {}
+
+function : int func6(int a, bool b) {} // Redeclared function
+
+function : void func7(int a, bool b) {}
+
+function : int func7(int a, bool b, float f) {} // OK
+
+
+// Params pass by reference
+function : void func8()

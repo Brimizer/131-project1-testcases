@@ -14,4 +14,10 @@ function : void errorTest() {
     const int f = 19.8;
 
     int i = 1892.8; // Should gen an error
+
+    int x = false + false; // error
+    int x = 0; // redeclared iden
+
+    int k = 0;
+    int k = false ^ true;
 }
