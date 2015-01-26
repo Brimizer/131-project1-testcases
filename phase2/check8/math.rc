@@ -88,7 +88,7 @@ function : void muls() {
     const int z = 2; // Error - z not known at compile time
     const int x = y * 1; // Error - y not known at compile time
     int a = z * x; // Pass
-    const float j = z +*k; // Pass - both consts
+    const float j = z * k; // Pass - both consts
 
     int a2 = 2 * 3; // Do constant folding
     const int b = 2 * 3; // Do constant folding
