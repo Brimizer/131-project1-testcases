@@ -1,0 +1,8 @@
+function : int myFunc1() {
+    return 5;
+}
+
+function : void main() {
+    int woahNelly;
+    woahNelly = 78.3 + myFunc1(); // fail
+}

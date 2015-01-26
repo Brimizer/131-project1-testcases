@@ -1,0 +1,19 @@
+function : void test1() {
+    return; // pass
+}
+
+function : void test1b() {
+    // pass
+}
+
+function : int test2() {
+    return; // error
+}
+
+function : float test3() {
+    return; // error
+}
+
+function : bool test4() {
+    return;
+}
