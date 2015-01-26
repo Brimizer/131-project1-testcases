@@ -2,6 +2,8 @@ function : void errorTest() {
 
     int a = 10 + 10; // fine
 
+    const float z = 9.482 + 4.928;
+
     const int b = a + 3; // b not known at compile time
 
     // what happens below?
