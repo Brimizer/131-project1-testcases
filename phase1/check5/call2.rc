@@ -1,0 +1,13 @@
+function : bool foo() {
+    return false;
+}
+
+function : void bar() {
+    /* do nothing */
+}
+
+function : void main() {
+    int x;
+    x = x + foo(); // error - bool incompatible with + operator
+    x = bar();
+}

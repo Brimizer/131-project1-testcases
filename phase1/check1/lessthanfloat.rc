@@ -7,5 +7,7 @@ function : int main() {
 
     bool d = d < c; // This should error
 
+    float z = a;
+
     return 0;
 }

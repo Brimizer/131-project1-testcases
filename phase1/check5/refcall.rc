@@ -1,0 +1,38 @@
+function : int myFunc1(int& a, int b, int& c) {
+    return 5;
+}
+
+function : void myFunc2(float & a) {
+
+}
+
+function : int & myFunc3(int & a) {
+
+}
+
+function : int myFunc4() {
+    return 10;
+}
+
+function : void main() {
+    int x = 5; // VarSTO
+    int y = 10; // ConstSTO
+    int z = 12; // VarSTO
+    int woahNelly;
+    int j;
+    float k;
+
+    myFunc1(x, 5, z); // Should pass?
+
+    int blah;
+    myFunc2( blah ); // fail
+
+    z = myFunc3( x ); // should pass
+
+    j = 5 + myFunc4(); // pass
+    k = 5.6 + myFunc4(); // pass
+
+    woahNelly = 78.3 + myFunc4(); // fail
+    woahNelly = 19.3 + 5; // fail
+
+}
