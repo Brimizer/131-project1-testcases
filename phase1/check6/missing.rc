@@ -1,0 +1,54 @@
+function : void test1() {
+    // must PASS
+}
+
+function : int test3() {
+    // fail
+}
+
+function : float test4() {
+    // fail
+}
+
+function : bool test5() {
+    // fail
+}
+
+function : int test6() {
+    int i = 0;
+    while ( i < 5 ) {
+        return i; // **shouldn't count
+    }
+
+    // fail - missing top - level return statement
+}
+
+function : int test7() {
+    int a;
+    a = 5;
+
+    if (a > 10) {
+        return a; // shouldn't count
+    } else {
+        return a + 5; // shouldn't count
+    }
+
+    // fail - missing return
+}
+
+function : int test8() {
+    int a;
+    a = 5;
+
+    if (a > 10) {
+        return false; // fail - incorrect type
+    } else {
+        return 6.8; // fail - incorrect type
+    }
+
+    // fail - missing return type
+}
+
+function : int test9() {
+    return (true || false); // fail - bool not assignable to int
+}

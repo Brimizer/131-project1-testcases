@@ -1,0 +1,33 @@
+function : float & test1() {
+    return 5; // fail
+}
+
+function : int & test2() {
+    return 5; // pass
+}
+
+function : int & test3() {
+    return 5; // pass
+}
+
+function : float & test4() {
+    float b = 7.8;
+    return b; // pass
+}
+
+function : float & test5() {
+    int a = 8;
+    return a; // fail
+}
+
+function : float & test6() {
+    return true; // fail
+}
+
+function : int & test6() {
+    return (true && false); // faile
+}
+
+function : int & test7() {
+    return (5 & 10); // pass
+}

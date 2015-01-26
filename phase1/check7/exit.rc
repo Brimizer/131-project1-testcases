@@ -10,7 +10,7 @@ function : int main() {
 
     exit(-1); // pass
 
-    exit(); // fail
+    exit(&a); // pass or fail?
 
     exit(false); // fail
 

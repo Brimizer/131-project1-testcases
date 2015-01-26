@@ -1,0 +1,51 @@
+function : void test1() {
+    return 5; // fail - 5 not assignable to void
+    return false; // fail
+}
+
+function : void test2() {
+    return 4.5; // fail - float not assignable to void
+    return true; // fail
+}
+
+function : int test3() {
+    return 101.3; // fail - float not assignable to int
+}
+
+function : float test4() {
+    return 106; // pass
+}
+
+function : bool test5() {
+    return 1; // fail
+    return 6.7; // fail
+}
+
+function : bool test6() {
+    return 1; // fail
+    return 6.7; // fail
+}
+
+function : int test7() {
+    int a;
+    a = 5;
+
+    return a; // pass
+    return 6 + 7; // pass
+}
+
+function : int test8() {
+    float a;
+    a = 5;
+
+    return a; // fail - float not assignable to int
+}
+
+function : int test8() {
+    return (true || false); // fail - bool not assignable to int
+}
+
+function : bool test9() {
+    float a = 9.9;
+    return a;
+}
