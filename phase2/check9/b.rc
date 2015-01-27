@@ -1,0 +1,19 @@
+function : void func1(float a, int b) {} // OK
+function : void func1(float a, float b) {} // OK
+function : void func1(float a, float b, bool b) {} // OK
+
+function : void func2(int a, float b) {} // OK
+function : void func2(float a, int b) {} // OK
+
+
+function : void main() {
+
+    func1(10.0, 5); // OK - calls 1st
+    func1(10.3, 18.9); // OK - calls 2nd
+    func1(7.8); // error
+
+    func2(19, 4.5); // Ok
+    func2(8.9, 56); // Ok
+    func2(8.9, 9.7); // error
+    func2(8, 9); // error
+}
