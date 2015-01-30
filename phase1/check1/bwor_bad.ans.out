@@ -1,0 +1,7 @@
+Error, "phase1/check1/bwor_bad.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "phase1/check1/bwor_bad.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "phase1/check1/bwor_bad.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Compile: failure.

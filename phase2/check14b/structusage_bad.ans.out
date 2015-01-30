@@ -1,0 +1,5 @@
+Error, "phase2/check14b/structusage_bad.rc": 
+  Type of expression referenced by "." (int) is not a struct.
+Error, "phase2/check14b/structusage_bad.rc": 
+  Referenced field c not found in type MYS.
+Compile: failure.

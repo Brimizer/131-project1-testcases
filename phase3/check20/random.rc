@@ -1,0 +1,36 @@
+int x;
+float y;
+float* z;
+int* intPtr;
+
+structdef STRUCT {
+	int x;
+	float y;
+	STRUCT * s;
+};
+
+function : int* & food() {
+    int *x;
+    return x;
+}
+
+function : int main() {
+	int x = 4;
+	float f = 4.0;
+
+    bool b;
+    int i;
+    float ff;
+    int *ptr = (int *) b;
+    ptr = (int *) i;
+    ptr = (int *) ff;
+
+    b = (bool) i;
+    b = (bool) ff;
+    *food() = *(int *) ff;
+    int arr[1];
+    int y = *(int *) &f;
+    arr[*(int *) &f];
+    arr[y];
+	return 0;
+}

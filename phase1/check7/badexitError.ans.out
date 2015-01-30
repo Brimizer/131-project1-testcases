@@ -1,0 +1,5 @@
+Error, "phase1/check7/badexitError.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase1/check7/badexitError.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Compile: failure.

@@ -1,0 +1,35 @@
+structdef MY {
+    int x;
+    MY *my;
+    MY () {}
+    MY (int x) {}
+    function : MY * foo() {
+        new this.my;
+        return this.my;
+    }
+
+};
+
+structdef MYS {
+    int x;
+    int *y;
+    MY *m;
+    MY *mm;
+    MYS (int x) {
+        new this.y;
+        new this.mm;
+        new this.m : (this.x);
+    }
+
+   function : void foo() {
+        new this.y;
+        new this.mm;
+        new this.m : (this.x);
+    }
+};
+
+function : void main() {
+    MY my;
+    MY *myPtr;
+    myPtr = my.foo();
+}

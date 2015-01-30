@@ -1,0 +1,5 @@
+Error, "phase2/check11a/array-usage-good.rc": 
+  Index value of 9 is outside legal range [0,2).
+Error, "phase2/check11a/array-usage-good.rc": 
+  Index value of 3 is outside legal range [0,2).
+Compile: failure.

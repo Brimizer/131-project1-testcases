@@ -1,0 +1,6 @@
+--- project1/eccheck/myans	2015-01-09 01:34:44.000000000 -0800
++++ project1/eccheck/mytemp	2015-01-09 01:34:44.000000000 -0800
+@@ -1,3 +0,0 @@
+-Error, "eccheck/overloaded3.rc": 
+-  Illegal call to overloaded function foo.
+-Compile: failure.

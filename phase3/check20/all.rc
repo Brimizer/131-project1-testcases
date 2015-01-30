@@ -1,0 +1,22 @@
+structdef A {
+	int x;
+};
+
+
+function : void Main() {
+	int * ptr;
+
+	int i = (int) ptr;
+	float f = (float) ptr;
+	bool b = (bool) ptr;
+
+	int * ip = (int *) ptr;
+	float * fp = (float *) ptr;
+	bool * bp = (bool *) ptr;
+	A * ap = (A *) ptr;
+
+	int ** ipp = (int **) ptr;
+	float ** fpp = (float **) ptr;
+	bool ** bpp = (bool **) ptr;
+	A ** app = (A **) ptr;
+}

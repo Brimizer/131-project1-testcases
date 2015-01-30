@@ -1,0 +1,3 @@
+Error, "phase2/check11/simplefunctoparambad.rc": 
+  Argument of type int[12] not equivalent to reference parameter intPtr, of type int[20].
+Compile: failure.

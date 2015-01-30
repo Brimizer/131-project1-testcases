@@ -1,0 +1,12 @@
+structdef A {
+  int * a;
+};
+
+function: void main() {
+    A **aa;
+    A *****aaaaa;
+    new aa;
+    new aa : ();
+    new aaaaa;
+    new aaaaa : ();
+}

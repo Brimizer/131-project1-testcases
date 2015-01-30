@@ -1,0 +1,28 @@
+int     c[2]; //Global. third_test
+
+int i; //for first_test
+
+int a[10]; //for second_test
+int b[10]; //for second_test
+
+
+function: int main(){
+i = 10;
+int i[5]; //masking global. first_test
+
+    foreach ( int x: i){ // first_test
+        x = 1;
+    }
+
+    foreach ( int & x : a ) { //second_test
+        foreach ( int y : b ) {
+        x = x + y;
+        }
+    }
+
+    foreach (float x : c) { //third_test
+        float x; 	    
+    }
+
+    return 0;
+}

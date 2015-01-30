@@ -1,0 +1,9 @@
+Error, "phase3/check20/typecast_bad.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check20/typecast_bad.rc": 
+  Argument passed to reference parameter y (type int) is not a modifiable L-value.
+Error, "phase3/check20/typecast_bad.rc": 
+  Non-addressable argument of type int to address-of operator.
+Error, "phase3/check20/typecast_bad.rc": 
+  Invalid type cast. Type STRUCT to type int is not supported.
+Compile: failure.

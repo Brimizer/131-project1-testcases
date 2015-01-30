@@ -1,0 +1,5 @@
+Error, "phase2/check11/funcbyrefwitharrayptr.rc": 
+  Index value of 10 is outside legal range [0,10).
+Error, "phase2/check11/funcbyrefwitharrayptr.rc": 
+  Argument of type int not equivalent to reference parameter f, of type float*.
+Compile: failure.

@@ -1,0 +1,5 @@
+Error, "phase2/check12a/foreachPtr_bad.rc": 
+  Foreach array element of type int** not assignable to value iteration variable a, of type int*.
+Error, "phase2/check12a/foreachPtr_bad.rc": 
+  Value of type int not assignable to variable of type int*.
+Compile: failure.

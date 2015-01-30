@@ -34,7 +34,7 @@ function : int main() {
 
     func1(f1, b); // fail - # and type mismatch
 
-    int res1 = func2(9, 5); // pass
+    int res1 = func2(9, 5); // fail
 
     func3(&i1, &i2); // pass
 

@@ -1,0 +1,5 @@
+Error, "phase2/check8b/varinit.rc": 
+  Initialization value of type int not assignable to constant/variable of type bool.
+Error, "phase2/check8b/varinit.rc": 
+  Initialization value of type float not assignable to constant/variable of type int.
+Compile: failure.

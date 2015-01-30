@@ -1,0 +1,17 @@
+Error, "phase2/check14a/spectest.rc": 
+  Number of arguments (2) differs from number of parameters (0).
+Error, "phase2/check14a/spectest.rc": 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "phase2/check14a/spectest.rc": 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "phase2/check14a/spectest.rc": 
+  Argument of type bool not assignable to value parameter x, of type float.
+Error, "phase2/check14a/spectest.rc": 
+  Number of arguments (0) differs from number of parameters (1).
+Error, "phase2/check14a/spectest.rc": 
+  Illegal call to overloaded function MYS_C.
+Error, "phase2/check14a/spectest.rc": 
+  Illegal call to overloaded function MYS_C.
+Error, "phase2/check14a/spectest.rc": 
+  Illegal call to overloaded function MYS_C.
+Compile: failure.

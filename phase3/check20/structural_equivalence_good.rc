@@ -1,0 +1,67 @@
+bool aa[10];
+int  ab[10];
+
+structdef AWS{
+    bool bb[10];
+    int * ptrnowhere;// = nullptr;
+};
+
+function: int &  foo(){
+    int angel = 10;
+    return angel ;
+}
+
+function: int &  bar(){
+    return 3+5;
+}
+function: float barbar(){
+    return 3+5.0;
+}
+
+function: int  foobar(){
+    const int x = 3+5;
+    return x;
+}
+
+function: void barfoo(){
+ return;
+}
+
+function: int main(){
+    AWS homer;
+    int *ptrr = nullptr;
+    int baby[20];
+    int * ptr[20];
+    ptr = &baby;
+    int xtoy = 3;
+    float truthiness = 1.0;
+    float falsiness = 0.0;
+    float notfalsetruthest =3;
+    
+    foo() = 3; 
+    bar() = 3;
+    foobar() = 3;
+    barfoo() = 3;
+    barbar() = 3.0;
+    nullptr = nullptr;
+    &nullptr;
+    
+    (int) barfoo() = 3;
+    (float) foobar() = 3.0;
+    (bool)truthiness == true;
+    (bool)truthiness = 1;
+    (bool)notfalsetruthest == false;
+
+
+    xtoy = &nullptr;
+    
+    
+    *(homer.ptrnowhere) = 3;
+   
+    
+
+    homer.bb = aa;
+    homer.bb = ab;
+    
+    return 0;
+}

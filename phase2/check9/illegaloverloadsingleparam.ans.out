@@ -1,0 +1,21 @@
+Error, "phase2/check9/illegaloverloadsingleparam.rc": 
+  Duplicate declaration of overloaded function foo.
+Error, "phase2/check9/illegaloverloadsingleparam.rc": 
+  Duplicate declaration of overloaded function foo.
+Error, "phase2/check9/illegaloverloadsingleparam.rc": 
+  Duplicate declaration of overloaded function foo.
+Error, "phase2/check9/illegaloverloadsingleparam.rc": 
+  Duplicate declaration of overloaded function bar.
+Error, "phase2/check9/illegaloverloadsingleparam.rc": 
+  Duplicate declaration of overloaded function bar.
+Error, "phase2/check9/illegaloverloadsingleparam.rc": 
+  Duplicate declaration of overloaded function bar.
+Error, "phase2/check9/illegaloverloadsingleparam.rc": 
+  Duplicate declaration of overloaded function foobar.
+Error, "phase2/check9/illegaloverloadsingleparam.rc": 
+  Duplicate declaration of overloaded function foobar.
+Error, "phase2/check9/illegaloverloadsingleparam.rc": 
+  Duplicate declaration of overloaded function foobar.
+Error, "phase2/check9/illegaloverloadsingleparam.rc": 
+  Duplicate declaration of overloaded function foobar.
+Compile: failure.

@@ -1,0 +1,31 @@
+structdef MYS {
+    int x;
+    int y;
+    int z;
+    MYS * next; // recursive field – no error – will be tested
+    function : void yy() {} // check13a_Struct dup id y, error #3
+    function : void f( int &x ) // No error with x (inner scope)
+    {
+     x = x + 1;
+    }
+    function : void foo() {}
+    function : void bar() {}
+    function : void bar(int x) {} // OK, since legal overload
+};
+
+function : void main() {
+    MYS *mysPtr;
+    MYS m;
+    int i;
+    float f;
+
+    m.f(1);         // error not mod l value
+    m.f(i);
+    m.f(f);         // error not equivalent, float to int
+
+    m.bar(3);
+    m.bar(3.0);
+    m.bar(true);
+
+    mysPtr = m.next;
+}

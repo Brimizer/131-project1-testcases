@@ -1,0 +1,5 @@
+Error, "phase2/check10/illegal-array-declarations-list.rc": 
+  Index expression value (-1) in array declaration must be > 0.
+Error, "phase2/check10/illegal-array-declarations-list.rc": 
+  Value of index expression not known at compile time.
+Compile: failure.

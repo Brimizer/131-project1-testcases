@@ -1,0 +1,6 @@
+Error, "phase3/check20/typecast_equivalence.rc": 
+  Incompatible types to operator ==:
+    float*,
+    float;
+  both must be of equivalent pointer type.
+Compile: failure.

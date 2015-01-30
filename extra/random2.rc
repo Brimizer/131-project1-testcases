@@ -1,0 +1,13 @@
+structdef MYS_A {
+
+    function : void structFunc() {
+        myFunc1();
+    }
+};
+
+function : void myFunc1(int a) {
+    // OK
+}
+function : void myFunc1() {
+    // OK
+}

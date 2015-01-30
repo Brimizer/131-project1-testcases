@@ -1,0 +1,18 @@
+structdef A {
+	int x;
+};
+
+
+function : void Main() {
+	int * ptr = nullptr;
+
+	bool * bp = (bool *) ptr;
+	bool * bpn = (bool *) nullptr;
+
+	int ip = (int) ptr;
+	int i = (int) nullptr;
+	float f = (float) nullptr;
+	bool b = (bool) nullptr;
+
+	A * ap = (A *) nullptr;
+}

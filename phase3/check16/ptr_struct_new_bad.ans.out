@@ -1,0 +1,11 @@
+Error, "phase3/check16/ptr_struct_new_bad.rc": 
+  Number of arguments (0) differs from number of parameters (2).
+Error, "phase3/check16/ptr_struct_new_bad.rc": 
+  Operand to "new" with constructor call is not of pointer to struct type, int* found.
+Error, "phase3/check16/ptr_struct_new_bad.rc": 
+  Argument of type int not assignable to value parameter y, of type bool.
+Error, "phase3/check16/ptr_struct_new_bad.rc": 
+  Argument of type bool not assignable to value parameter x, of type int.
+Error, "phase3/check16/ptr_struct_new_bad.rc": 
+  Argument of type int not assignable to value parameter y, of type bool.
+Compile: failure.

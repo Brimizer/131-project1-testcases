@@ -1,0 +1,14 @@
+int arr[5];
+
+function : void main() {
+  int b;
+  float f;
+  foreach(int a : arr) {
+    f = a;
+    b = a;
+  }
+
+  foreach(float a : arr) {
+      f = a;
+    }
+}

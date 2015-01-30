@@ -1,0 +1,7 @@
+Error, "phase2/check11a/tests-from-spec.rc": 
+  Index value of 9 is outside legal range [0,2).
+Error, "phase2/check11a/tests-from-spec.rc": 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "phase2/check11a/tests-from-spec.rc": 
+  Index value of 9 is outside legal range [0,2).
+Compile: failure.

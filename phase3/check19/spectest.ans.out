@@ -1,0 +1,17 @@
+Error, "phase3/check19/spectest.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "phase3/check19/spectest.rc": 
+  Index value of 8 is outside legal range [0,1).
+Error, "phase3/check19/spectest.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "phase3/check19/spectest.rc": 
+  Index value of 12 is outside legal range [0,1).
+Error, "phase3/check19/spectest.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "phase3/check19/spectest.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "phase3/check19/spectest.rc": 
+  Index value of 16 is outside legal range [0,1).
+Error, "phase3/check19/spectest.rc": 
+  Index value of 8 is outside legal range [0,1).
+Compile: failure.

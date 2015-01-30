@@ -1,0 +1,3 @@
+Error, "phase1/check4/ifwhile_bad.rc": 
+  bool required for conditional test, float found.
+Compile: failure.

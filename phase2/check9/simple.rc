@@ -1,0 +1,16 @@
+function : int & foo( int x, float & y) {
+    int b = 5;
+    return b;
+}
+
+function : void main() {
+    int a;
+    float b;
+
+
+    a = foo(a, b);
+    b = foo(a, b);
+    foo(a, b) = a;
+    foo(a, b) = b;
+    b = ++foo(a, b);
+}

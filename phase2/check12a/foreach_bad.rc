@@ -1,0 +1,16 @@
+int arr[5];
+
+function : void main() {
+    bool b;
+    foreach(bool a : arr) {
+        b = a;
+    }
+
+    foreach(int a : arr) {
+        b = a;
+    }
+
+    foreach(int a : b) {
+
+    }
+}

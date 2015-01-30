@@ -1,0 +1,7 @@
+Error, "phase1/check1/gte_bad.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "phase1/check1/gte_bad.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Error, "phase1/check1/gte_bad.rc": 
+  Incompatible type bool to binary operator >=, numeric expected.
+Compile: failure.

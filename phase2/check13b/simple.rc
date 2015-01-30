@@ -1,0 +1,20 @@
+structdef MYS {
+    int a;
+
+    //MYS *b;
+
+    MYS() {}
+
+    MYS() {} // duplicated
+
+    MYS(int x) {} // overloaded ctor - no error
+
+    MYS(int x) {} // error
+
+    ~BAR() {} // error13b_Dtor - name does not match struct
+
+    ~MYS() {} // destructor
+
+    ~MYS() {} // error9_Decl – dup overload
+
+};

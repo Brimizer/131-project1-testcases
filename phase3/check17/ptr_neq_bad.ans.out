@@ -1,0 +1,21 @@
+Error, "phase3/check17/ptr_neq_bad.rc": 
+  Incompatible types to operator !=:
+    int*,
+    int;
+  both must be of equivalent pointer type.
+Error, "phase3/check17/ptr_neq_bad.rc": 
+  Incompatible types to operator !=:
+    int,
+    int*;
+  both must be of equivalent pointer type.
+Error, "phase3/check17/ptr_neq_bad.rc": 
+  Incompatible types to operator !=:
+    int*,
+    float*;
+  both must be of equivalent pointer type.
+Error, "phase3/check17/ptr_neq_bad.rc": 
+  Incompatible types to operator !=:
+    STFU*,
+    STFU;
+  both must be of equivalent pointer type.
+Compile: failure.

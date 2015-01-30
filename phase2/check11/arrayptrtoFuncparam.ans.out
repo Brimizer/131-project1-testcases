@@ -1,0 +1,25 @@
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Index value of 5 is outside legal range [0,5).
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Index value of 5 is outside legal range [0,5).
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Index value of 5 is outside legal range [0,5).
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Incompatible type int*[5][10] to unary dereference operator *, pointer expected.
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Incompatible type int*[5][10] to unary dereference operator *, pointer expected.
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Incompatible type int*[5][10] to unary dereference operator *, pointer expected.
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Incompatible type int*[5][10] to unary dereference operator *, pointer expected.
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Incompatible type int*[5][10] to unary dereference operator *, pointer expected.
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Argument of type int not equivalent to reference parameter array, of type int[5].
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Argument of type int not equivalent to reference parameter array, of type int[5].
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Argument of type float[3] not equivalent to reference parameter array, of type int[5].
+Error, "phase2/check11/arrayptrtoFuncparam.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

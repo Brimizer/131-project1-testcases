@@ -1,0 +1,6 @@
+--- project1/phase1/check0/myans	2015-01-09 01:34:45.000000000 -0800
++++ project1/phase1/check0/mytemp	2015-01-09 01:34:45.000000000 -0800
+@@ -1,3 +0,0 @@
+-Error, "phase1/check0/c00.rc": 
+-  Identifier x is undeclared in the global scope.
+-Compile: failure.

@@ -1,0 +1,14 @@
+structdef MYS {
+    int a;
+    function : void foo(int a) {}
+};
+
+MYS arr[5];
+
+function : void main() {
+  MYS b;
+  foreach(MYS a : arr) {
+    b = a;
+    b.foo(1);
+  }
+}

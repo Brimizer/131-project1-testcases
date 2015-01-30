@@ -1,0 +1,13 @@
+Error, "phase3/check15/discussiontest.rc": 
+  Initialization value of type int[4] not assignable to constant/variable of type int*.
+Error, "phase3/check15/discussiontest.rc": 
+  Initialization value of type float[2] not assignable to constant/variable of type float*.
+Error, "phase3/check15/discussiontest.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check15/discussiontest.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check15/discussiontest.rc": 
+  Initialization value of type float[2][3] not assignable to constant/variable of type float**.
+Error, "phase3/check15/discussiontest.rc": 
+  Initialization value of type int[4] not assignable to constant/variable of type int**.
+Compile: failure.

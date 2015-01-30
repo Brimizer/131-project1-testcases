@@ -1,0 +1,9 @@
+Error, "phase2/check12a/singleAndNestedForeach_bad.rc": 
+  Type of expression referenced in foreach is not of array type.
+Error, "phase2/check12a/singleAndNestedForeach_bad.rc": 
+  Foreach array element of type int not equivalent to reference iteration variable x, of type bool.
+Error, "phase2/check12a/singleAndNestedForeach_bad.rc": 
+  Foreach array element of type int[10] not assignable to value iteration variable x, of type int.
+Error, "phase2/check12a/singleAndNestedForeach_bad.rc": 
+  Foreach array element of type int[10] not equivalent to reference iteration variable x, of type int.
+Compile: failure.

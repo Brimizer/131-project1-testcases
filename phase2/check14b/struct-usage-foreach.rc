@@ -1,0 +1,25 @@
+
+structdef MYS{ //for fourth_test
+    int bob;
+    int marley;
+};
+
+structdef HISS{ //for fourth_test
+    int scarlett;
+    int johansen;
+};
+
+function: int main(){
+
+    MYS qvc[20];
+    HISS hsn;
+    foreach (MYS x : qvc){
+        x = *(MYS *) &hsn;
+    }
+
+    foreach(HISS x: hsn){//Bad
+
+    }
+
+    return 0;
+}

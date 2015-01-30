@@ -1,0 +1,5 @@
+Error, "phase3/check16/ptr_new_bad.rc": 
+  Operand to "new" is not a modifiable L-value.
+Error, "phase3/check16/ptr_new_bad.rc": 
+  Type of new's operand must be of pointer type, int found.
+Compile: failure.

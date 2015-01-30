@@ -1,0 +1,22 @@
+structdef WRONGS {
+    int x;
+};
+
+structdef MYS {
+    int x;
+    int y;
+    int x; // error - check13a_Struct
+    int z;
+    int x; // error
+    MYS * next; // recursive field - no error
+
+    function : void y() {} // error
+    function : void f( int &x )
+    {
+        x = x + 1;
+    }
+    function : void foo() {}
+    function : void foo() {} // error9_Decl
+    function : void bar() {}
+    function : void bar(int x) {} // OK
+};

@@ -1,0 +1,37 @@
+const int i = 3;
+const int zi = 0;
+const bool fal = false;
+const bool tru = true;
+const float f = 4.5;
+const float zf = 0.0;
+
+function : void Main() {
+	int arr[1];
+	arr[2 + ((int) fal)]; 		// error out of bounds 2
+	arr[2 + (int) tru];			// error out of bounds 3
+
+	// int
+	arr[(int)(int) i];			// error out of bounds 3
+	arr[(int)(bool) i];			// error out of bounds 1
+	arr[(int)(float) i];		// error out of bounds 3
+	arr[2 + (int)(int) zi];		// error out of bounds 2
+    arr[2 + (int)(bool) zi];	// error out of bounds 2
+    arr[2 + (int)(float) zi];	// error out of bounds 2
+
+	// float
+	arr[(int)(int) f];			// error out of bounds 4
+	arr[(int)(bool) f];			// error out of bounds 1
+	arr[(int)(float) f];		// error out of bounds 4
+	arr[2 + (int)(int) zf];		// error out of bounds 2
+	arr[2 + (int)(bool) zf];	// error out of bounds 2
+	arr[2 + (int)(float) zf];	// error out of bounds 2
+
+	// bool
+	arr[2 + (int)(int) fal];	// error out of bounds 2
+	arr[2 + (int)(bool) fal];	// error out of bounds 2
+	arr[2 + (int)(float) fal];	// error out of bounds 2
+	arr[2 + (int)(int) tru];	// error out of bounds 3
+	arr[2 + (int)(bool) tru];	// error out of bounds 3
+	arr[2 + (int)(float) tru];	// error out of bounds 3
+
+}

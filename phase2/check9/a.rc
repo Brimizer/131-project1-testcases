@@ -29,11 +29,11 @@ function : void func5(float a, float b, bool b) {} // OK
 // Ignore return types
 function : void func6(int a, bool b) {} // OK
 
-function : int func6(int a, bool b) {} // Redeclared function
+function : int func6(int a, bool b) { return 0; } // Redeclared function
 
 function : void func7(int a, bool b) {} // OK
 
-function : int func7(int a, bool b, float f) {} // OK
+function : int func7(int a, bool b, float f) {} // return missing
 
 
 // Params pass by reference
@@ -41,8 +41,8 @@ function : void func8(int & a, int & b, int & c) {} // OK
 
 function : void func8(int & a, int & b, int & c) {} // redeclartion of func
 
-function : void func8(int & a, int & b) {} // ?? - Possibly redeclaration
+function : void func8(int & a, int & b) {} //
 
 function : void func9(float & a, float b, bool b) {} // OK
 
-function : void func9(float a, float b, bool b) {} // ?? unknown
+function : void func9(float a, float b, bool b) {} // error

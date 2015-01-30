@@ -1,0 +1,5 @@
+Error, "phase2/check13b/struct_overloadfuncs.rc": 
+  Duplicate declaration of overloaded function foo.
+Error, "phase2/check13b/struct_overloadfuncs.rc": 
+  undeclared identifier 'B'.
+Compile: failure.

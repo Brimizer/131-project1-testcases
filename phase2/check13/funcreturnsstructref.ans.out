@@ -1,0 +1,3 @@
+Error, "phase2/check13/funcreturnsstructref.rc": 
+  Initialization value of type S not assignable to constant/variable of type int.
+Compile: failure.

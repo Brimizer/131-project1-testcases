@@ -1,0 +1,9 @@
+Error, "phase1/check5/func_reference.rc": 
+  Type of return expression (float) is not equivalent to the function's return type (int).
+Error, "phase1/check5/func_reference.rc": 
+  Argument passed to reference parameter x (type int) is not a modifiable L-value.
+Error, "phase1/check5/func_reference.rc": 
+  Argument of type bool not equivalent to reference parameter x, of type int.
+Error, "phase1/check5/func_reference.rc": 
+  Operand to ++ is not a modifiable L-value.
+Compile: failure.

@@ -1,0 +1,12 @@
+structdef MS {
+    int a;
+    int b;
+    MS *ms;
+    function : int doo() { return 0; } // has no effect on size!
+};
+
+function : void main() {
+    int arr[1];
+    arr[sizeof(MS)];
+    arr[sizeof(MS [4][5])];
+}

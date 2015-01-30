@@ -1,0 +1,7 @@
+Error, "phase2/check11/ptrsderefbybracket.rc": 
+  Incompatible type float** to binary operator +, numeric expected.
+Error, "phase2/check11/ptrsderefbybracket.rc": 
+  Type of index expression in array reference (float) not equivalent to int.
+Error, "phase2/check11/ptrsderefbybracket.rc": 
+  Type of expression referenced by array subscript (float) is not of array or pointer type.
+Compile: failure.

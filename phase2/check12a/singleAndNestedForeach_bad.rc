@@ -1,0 +1,19 @@
+int a[10];
+int b[10][10];
+
+function: int main(){
+    bool i =false;
+
+    foreach(bool x: i){
+    }
+    foreach(bool &x: a){
+    }
+    
+    foreach(int x: b){
+    }
+
+    foreach(int &x: b){
+    }
+
+    return 0;
+}

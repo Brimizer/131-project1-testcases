@@ -1,0 +1,9 @@
+Error, "phase1/check2/rval_check.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase1/check2/rval_check.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase1/check2/rval_check.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase1/check2/rval_check.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

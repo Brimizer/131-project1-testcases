@@ -1,0 +1,5 @@
+Error, "phase3/check16/ptr_ptr_struct.rc": 
+  Operand to "new" with constructor call is not of pointer to struct type, A** found.
+Error, "phase3/check16/ptr_ptr_struct.rc": 
+  Operand to "new" with constructor call is not of pointer to struct type, A***** found.
+Compile: failure.

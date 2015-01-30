@@ -1,0 +1,15 @@
+//structdef MYS {
+//    int wee;
+    function : int x (int p, float i) {
+        int j = p;
+    }
+
+    function : int x (int p, float i) {
+        int j = p;
+    }
+
+    function : int x (int p, float i) {
+        int j = p;
+    }
+
+//};

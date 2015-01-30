@@ -1,0 +1,7 @@
+Error, "phase2/check13/structtofunc.rc": 
+  Argument of type bool[32] not equivalent to reference parameter a, of type bool[31].
+Error, "phase2/check13/structtofunc.rc": 
+  Argument of type REC2* not equivalent to reference parameter b, of type REC2.
+Error, "phase2/check13/structtofunc.rc": 
+  Type of expression referenced by "." (int) is not a struct.
+Compile: failure.

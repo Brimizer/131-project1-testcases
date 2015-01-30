@@ -1,0 +1,15 @@
+int arr[5];
+int * arrPtr[5];
+
+function : void main() {
+  int b;
+  float f;
+  foreach(float &a : arr) {
+    b = a;
+    f = a;
+  }
+  int * c;
+  foreach(int &a : arrPtr) {
+      c = a;
+  }
+}

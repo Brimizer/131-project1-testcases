@@ -1,0 +1,7 @@
+Error, "phase2/check9/overloaded.rc": 
+  Duplicate declaration of overloaded function foo.
+Error, "phase2/check9/overloaded.rc": 
+  Duplicate declaration of overloaded function foo.
+Error, "phase2/check9/overloaded.rc": 
+  Illegal call to overloaded function foo.
+Compile: failure.

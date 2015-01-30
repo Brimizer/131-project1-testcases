@@ -1,0 +1,9 @@
+Error, "phase3/check15c/struct_func_ref_ptr.rc": 
+  Argument passed to reference parameter y (type float) is not a modifiable L-value.
+Error, "phase3/check15c/struct_func_ref_ptr.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "phase3/check15c/struct_func_ref_ptr.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check15c/struct_func_ref_ptr.rc": 
+  Argument passed to reference parameter f (type float) is not a modifiable L-value.
+Compile: failure.

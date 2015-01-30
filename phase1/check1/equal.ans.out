@@ -1,4 +1,0 @@
-Error, "phase1/check1/equal.rc": 
-  Incompatible types to operator: 4 == true;
-  both must be numeric, or both equivalent to bool.
-Compile: failure.

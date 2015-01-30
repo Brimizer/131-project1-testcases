@@ -1,0 +1,3 @@
+Error, "phase2/check14b/struct-usage-foreach.rc": 
+  Type of expression referenced in foreach is not of array type.
+Compile: failure.

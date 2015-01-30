@@ -1,0 +1,5 @@
+Error, "phase3/check20/cast_int_float.rc": 
+  Index value of 4 is outside legal range [0,1).
+Error, "phase3/check20/cast_int_float.rc": 
+  Index value of 4 is outside legal range [0,1).
+Compile: failure.

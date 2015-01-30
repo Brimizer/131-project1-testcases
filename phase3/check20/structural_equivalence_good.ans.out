@@ -1,0 +1,27 @@
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Return expression is not a modifiable L-value for function that returns by reference.
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Non-addressable argument of type nullptr to address-of operator.
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Invalid type cast. Type void to type int is not supported.
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Non-addressable argument of type nullptr to address-of operator.
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "phase3/check20/structural_equivalence_good.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Compile: failure.

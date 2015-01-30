@@ -1,0 +1,31 @@
+int a;
+float b;
+
+function : int & foo( int x, float & y ) {
+  return a;
+}
+
+structdef A {
+  int y[5];
+  float ff;
+
+  function : int & food(float & f) {
+    int x;
+    return x;
+  }
+};
+
+function: void main() {
+  foo(a,b++);
+  a = foo( a, b );
+  b = foo( a, b );
+  foo( a, b ) = a;
+  foo( a, b ) = b;
+  b = ++foo( a, b );
+  int g[5];
+  A *aaa;
+  (aaa->y) = g;
+  float f;
+  float r = aaa->food((*aaa).ff) = 3;
+  float rr = aaa->food((*aaa).ff++) = 3;
+}

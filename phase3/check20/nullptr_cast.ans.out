@@ -1,0 +1,11 @@
+Error, "phase3/check20/nullptr_cast.rc": 
+  Invalid type cast. Type nullptr to type bool* is not supported.
+Error, "phase3/check20/nullptr_cast.rc": 
+  Invalid type cast. Type nullptr to type int is not supported.
+Error, "phase3/check20/nullptr_cast.rc": 
+  Invalid type cast. Type nullptr to type float is not supported.
+Error, "phase3/check20/nullptr_cast.rc": 
+  Invalid type cast. Type nullptr to type bool is not supported.
+Error, "phase3/check20/nullptr_cast.rc": 
+  Invalid type cast. Type nullptr to type A* is not supported.
+Compile: failure.

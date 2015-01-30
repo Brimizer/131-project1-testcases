@@ -1,13 +1,6 @@
-function : int main() {
-    int a = 5;
-    int b = 4;
-    bool c = true;
 
-    bool d = !b; // fail
-    d = !(true || false); // pass
-    d = !true && !false; // pass
-    d = !5; // fail
-    d = !8.9; // fail
-
-    return 0;
+function : bool main() {
+	bool x = !true;
+	
+	return x;
 }

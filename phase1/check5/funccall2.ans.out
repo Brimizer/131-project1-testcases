@@ -1,0 +1,21 @@
+Error, "phase1/check5/funccall2.rc": 
+  Argument of type bool not equivalent to reference parameter c, of type float.
+Error, "phase1/check5/funccall2.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "phase1/check5/funccall2.rc": 
+  Argument of type int not equivalent to reference parameter b, of type float.
+Error, "phase1/check5/funccall2.rc": 
+  Number of arguments (2) differs from number of parameters (3).
+Error, "phase1/check5/funccall2.rc": 
+  Argument of type int not equivalent to reference parameter c, of type float.
+Error, "phase1/check5/funccall2.rc": 
+  Argument of type bool not assignable to value parameter a, of type float.
+Error, "phase1/check5/funccall2.rc": 
+  Argument of type int not equivalent to reference parameter b, of type float.
+Error, "phase1/check5/funccall2.rc": 
+  Argument of type int not equivalent to reference parameter c, of type float.
+Error, "phase1/check5/funccall2.rc": 
+  Argument passed to reference parameter b (type float) is not a modifiable L-value.
+Error, "phase1/check5/funccall2.rc": 
+  Argument passed to reference parameter c (type float) is not a modifiable L-value.
+Compile: failure.

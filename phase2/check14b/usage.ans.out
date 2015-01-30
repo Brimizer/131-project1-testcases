@@ -1,0 +1,9 @@
+Error, "phase2/check14b/usage.rc": 
+  Argument passed to reference parameter x (type int) is not a modifiable L-value.
+Error, "phase2/check14b/usage.rc": 
+  Argument of type float not equivalent to reference parameter x, of type int.
+Error, "phase2/check14b/usage.rc": 
+  Illegal call to overloaded function bar.
+Error, "phase2/check14b/usage.rc": 
+  Illegal call to overloaded function bar.
+Compile: failure.

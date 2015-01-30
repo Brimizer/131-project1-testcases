@@ -1,0 +1,9 @@
+Error, "phase1/check4/illegal-conditionals.rc": 
+  bool required for conditional test, float found.
+Error, "phase1/check4/illegal-conditionals.rc": 
+  bool required for conditional test, float found.
+Error, "phase1/check4/illegal-conditionals.rc": 
+  bool required for conditional test, float found.
+Error, "phase1/check4/illegal-conditionals.rc": 
+  bool required for conditional test, float found.
+Compile: failure.

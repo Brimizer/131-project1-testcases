@@ -1,0 +1,5 @@
+Error, "phase2/check14c/local.rc": 
+  undeclared identifier 'x'.
+Error, "phase2/check14c/local.rc": 
+  undeclared identifier 'y'.
+Compile: failure.

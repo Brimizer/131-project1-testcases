@@ -1,0 +1,7 @@
+Error, "phase3/check19/sizeof_bad.rc": 
+  Invalid operand to sizeof. Not a type or not addressable.
+Error, "phase3/check19/sizeof_bad.rc": 
+  Invalid operand to sizeof. Not a type or not addressable.
+Error, "phase3/check19/sizeof_bad.rc": 
+  Invalid operand to sizeof. Not a type or not addressable.
+Compile: failure.

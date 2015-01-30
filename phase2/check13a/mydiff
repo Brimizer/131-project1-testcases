@@ -1,0 +1,16 @@
+--- phase2/check13a/myans	Tue Jun  3 12:27:09 2014
++++ phase2/check13a/mytemp	Tue Jun  3 12:27:09 2014
+@@ -1,9 +1,9 @@
+-Error, "phase2/check13a/teststruct.rc": 
++Error, "": 
+   Field x declared second time in struct.
+-Error, "phase2/check13a/teststruct.rc": 
++Error, "": 
+   Field x declared second time in struct.
+-Error, "phase2/check13a/teststruct.rc": 
++Error, "": 
+   Field y declared second time in struct.
+-Error, "phase2/check13a/teststruct.rc": 
++Error, "": 
+   Field w declared second time in struct.
+ Compile: failure.

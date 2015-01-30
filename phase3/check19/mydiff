@@ -1,0 +1,9 @@
+--- phase3/check19/myans	Tue Jun  3 12:27:24 2014
++++ phase3/check19/mytemp	Tue Jun  3 12:27:24 2014
+@@ -1,4 +1,6 @@
+ Error, "phase3/check19/sizeofwitharrayptrs.rc": 
++  Invalid operand to sizeof. Not a type or not addressable.
++Error, "phase3/check19/sizeofwitharrayptrs.rc": 
+   Left-hand operand is not assignable (not a modifiable L-value).
+ Error, "phase3/check19/sizeofwitharrayptrs.rc": 
+   Invalid operand to sizeof. Not a type or not addressable.

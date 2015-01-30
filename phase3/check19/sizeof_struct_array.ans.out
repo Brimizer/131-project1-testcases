@@ -1,0 +1,5 @@
+Error, "phase3/check19/sizeof_struct_array.rc": 
+  Index value of 12 is outside legal range [0,1).
+Error, "phase3/check19/sizeof_struct_array.rc": 
+  Index value of 240 is outside legal range [0,1).
+Compile: failure.

@@ -5,7 +5,6 @@ function : void func1(float a, float b, bool b) {} // OK
 function : void func2(int a, float b) {} // OK
 function : void func2(float a, int b) {} // OK
 
-
 function : void main() {
 
     func1(10.0, 5); // OK - calls 1st

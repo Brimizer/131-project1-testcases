@@ -1,0 +1,11 @@
+Error, "phase3/check16/ptr_new_struct_def_bad.rc": 
+  Illegal call to overloaded function MY.
+Error, "phase3/check16/ptr_new_struct_def_bad.rc": 
+  undeclared identifier 'x'.
+Error, "phase3/check16/ptr_new_struct_def_bad.rc": 
+  Illegal call to overloaded function MY.
+Error, "phase3/check16/ptr_new_struct_def_bad.rc": 
+  Illegal call to overloaded function MY.
+Error, "phase3/check16/ptr_new_struct_def_bad.rc": 
+  Illegal call to overloaded function MY.
+Compile: failure.

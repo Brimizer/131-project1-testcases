@@ -1,0 +1,7 @@
+Error, "phase2/check9/legaloverloadSingleAndMultiParam.rc": 
+  Illegal call to overloaded function foo.
+Error, "phase2/check9/legaloverloadSingleAndMultiParam.rc": 
+  Illegal call to overloaded function foo.
+Error, "phase2/check9/legaloverloadSingleAndMultiParam.rc": 
+  Illegal call to overloaded function foobar.
+Compile: failure.
