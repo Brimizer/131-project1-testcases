@@ -3,11 +3,11 @@ function : int foo() {
 }
 
 function : int main() {
-	foo() = 4;
-	1 = 2 = 3 = 4;
-	foo = 3;
-	true = false;
-	3.4 = 4.3;
+	foo() = 4; // not a mod L val
+	1 = 2 = 3 = 4; // Not a mod L val
+	foo = 3; // not a mod l val
+	true = false; // not a mod l val
+	3.4 = 4.3; // not a mod l val
 
 	return 0;
 }
